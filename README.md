@@ -1,0 +1,2 @@
+# tensorflow_captcha
+Tensorflow构建的CNN图片验证码识别,训练验证码识别模型
