@@ -1,28 +1,4 @@
-﻿#coding:utf-8 
-#import tensorflow as tf
-#w1 = tf.Variable(tf.random_normal([2,3],stddev=1,seed=1))
-#w2 = tf.Variable(tf.random_normal([3,1],stddev=1,seed=1))
-#x = tf.constant([[0.7,0.9]])
-#a = tf.matmul(x,w1)
-#y = tf.matmul(a,w2)
-#sess = tf.Session()
-#init_op = tf.initialize_all_variables()
-#sess.run(init_op)
-#print(sess.run(y))
-#sess.close()
-
- 
-
-#a = tf.random_normal((100, 100))
-#b = tf.random_normal((100, 500))
-#c = tf.matmul(a, b)
-#sess = tf.InteractiveSession()
-
-#print(sess.run(c))
-
-##print("hello,world")
-
-#coding=utf-8
+﻿#coding=utf-8
 import cv2
 import requests
 import numpy as np
@@ -113,49 +89,12 @@ def downimage(code):
     image = resize_image(captcha_image, 60, 160) 
     return image
 
-    # 建立请求头
-    #headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36", "Connection": "keep-alive"}
-    # 这个url是联合航空公司验证码，根据访问时间戳返回图片https://account.flycua.com/sso/chineseVerifyCode.images
-   
-  
-
-    # 获取响应图片内容
-    #image=sess.get(url,headers=headers).content
-    # 保存到本地
-    #with open(str(i)+"image.jpg","wb") as f:
-    #    f.write(image)
-    #return image 
-
-    #res = requests.get(url,headers=headers)
-    #byte_stream = io.BytesIO(res.content) # 把请求到的数据转换为Bytes字节流(这样解释不知道对不对，可以参照[廖雪峰](https://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000/001431918785710e86a1a120ce04925bae155012c7fc71e000)的教程看一下)
- 
-    #roiImg = Image.open(byte_stream)  # Image打开二进制流Byte字节流数据
-    #return roiImg
-    #imgByteArr = io.BytesIO()   # 创建一个空的Bytes对象 
-    #roiImg.save(imgByteArr, format='PNG') # PNG就是图片格式，我试过换成JPG/jpg都不行 
-    #imgByteArr = imgByteArr.getvalue()  # 这个就是保存的二进制流
 
 #按照指定图像大小调整尺寸
 def resize_image(image, height, width):
      top, bottom, left, right = (0, 0, 0, 0)
 
-     #获取图像尺寸
-     #h, w, _ = image.shape
-
-     ##对于长宽不相等的图片，找到最长的一边
-     #longest_edge = max(h, w)    
-
-     ##计算短边需要增加多上像素宽度使其与长边等长
-     #if h < longest_edge:
-     #    dh = longest_edge - h
-     #    top = dh // 2
-     #    bottom = dh - top
-     #elif w < longest_edge:
-     #    dw = longest_edge - w
-     #    left = dw // 2
-     #    right = dw - left
-     #else:
-     #    pass 
+   
 
      #RGB颜色
      BLACK = [0, 0, 0]
