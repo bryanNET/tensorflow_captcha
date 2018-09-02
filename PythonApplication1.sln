@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PythonApplication1", "PythonApplication1\PythonApplication1.pyproj", "{42B26A88-20ED-49A0-B56E-8FE63A30AEA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaptchaWeb", "CaptchaWeb\CaptchaWeb.csproj", "{81E56002-8619-408D-BE51-A317CF22D9F4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{42B26A88-20ED-49A0-B56E-8FE63A30AEA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42B26A88-20ED-49A0-B56E-8FE63A30AEA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81E56002-8619-408D-BE51-A317CF22D9F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81E56002-8619-408D-BE51-A317CF22D9F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81E56002-8619-408D-BE51-A317CF22D9F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81E56002-8619-408D-BE51-A317CF22D9F4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2CBD4AA4-8EA4-42A6-8068-D772EA7DBC46}
+	EndGlobalSection
+EndGlobal
